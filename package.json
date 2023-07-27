@@ -1,0 +1,22 @@
+{
+  "name": "telegram-bot-receipt-scanner",
+  "version": "1.0.0",
+  "description": "A telegram bot that scans receipts and returns the receipt's information in CSV.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/main.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.6",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mindee": "^3.10.1",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
